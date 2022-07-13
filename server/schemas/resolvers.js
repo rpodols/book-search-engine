@@ -19,5 +19,17 @@ const resolvers = {
                 .select('-__v -password')
                 .populate('books');
         }
+    },
+    Mutation: {
+        addUser: async (parent, args) => {
+            const user = await User.create(args);
+
+            return user;
+        },
+        login: async () => {
+
+        }
     }
-}
+};
+
+module.exports = resolvers;
