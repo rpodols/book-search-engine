@@ -22,9 +22,10 @@ server.applyMiddleware({ app });
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-
+//
 // const startApolloServer = async (typeDefs, resolvers) => {
 // await server.start();
+//
 
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../client/build')));
