@@ -84,7 +84,7 @@ Starting from the initial commit, this challenge required writing code to do the
 * any questions, please feel free to reach out via email to rdpodols@gmail.com
 
 ## Link to Project & Screenshot
-![book-search-engine Screenshot)](/src/assets/images/applicationImage.png) 
+![book-search-engine Screenshot)](/assets/images/applicationImage2.png) 
 [Click here to view the project on GitHub!](https://github.com/rpodols/book-search-engine)
 
 
