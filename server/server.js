@@ -20,21 +20,21 @@ const server = new ApolloServer({
 
 server.applyMiddleware({ app });
 
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors())
 
-//
+
 // const startApolloServer = async (typeDefs, resolvers) => {
 // await server.start();
-//
+
 
 if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../client/build')));
+  app.use('/', express.static(path.join(__dirname, '../client/build')));
 }
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/build/index.html'));
+  res.sendFile(path.resolve(__dirname, '../client/build/index.html'));
 });
 
 db.once('open', () => {
