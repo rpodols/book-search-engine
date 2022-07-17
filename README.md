@@ -16,8 +16,7 @@ Starting from the initial commit, this challenge required writing code to do the
         submit button
 
         - WHEN I am not logged in and enter a search term in the input field and click the submit button
-        -THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the 
-        Google Books site
+        -THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site
 
         - WHEN I click on the Login/Signup menu option
         - THEN a modal appears on the screen with a toggle between the option to log in or sign up
@@ -65,10 +64,10 @@ Starting from the initial commit, this challenge required writing code to do the
 * MERN
 
 ## Installation
-* to run this locally, clone the repository from GitHub, and run the command 'npm install' while in the project's root directory.  run 'npm start' in the command line to start the server.  
+* to run this locally, clone the repository from GitHub, and run the command 'npm install' while in the project's root directory, server and client directories.  both client and server folders will need to have npm start ran against them in order to get both front and back end server working locally.  
 
 ## Usage
-* this can be used as a book search enging.
+* this can be used as a book search engine.
 
 ## Contributing
 * no outside contributions at this time
@@ -79,13 +78,13 @@ Starting from the initial commit, this challenge required writing code to do the
 [Click here for more license info!](https://choosealicense.com/licenses/mit/)
 
 ## Tests
-* tests can be run by 
+* tests can be run by loggin in/creating an account, searchign for books, saving books, and removing books.
 
 ## Questions
 * any questions, please feel free to reach out via email to rdpodols@gmail.com
 
 ## Link to Project & Screenshot
-![book-search-enging Screenshot)](/src/assets/images/applicationImage.png) 
+![book-search-engine Screenshot)](/src/assets/images/applicationImage.png) 
 [Click here to view the project on GitHub!](https://github.com/rpodols/book-search-engine)
 
 
