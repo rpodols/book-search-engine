@@ -86,6 +86,9 @@ Starting from the initial commit, this challenge required writing code to do the
 ## Link to Project & Screenshot
 ![book-search-engine Screenshot)](/assets/images/applicationImage2.png) 
 [Click here to view the project on GitHub!](https://github.com/rpodols/book-search-engine)
+[Click here to view the deployed project on Heroku!](https://vast-sea-71086.herokuapp.com/)
+
+Direct heroku link: https://vast-sea-71086.herokuapp.com/
 
 
 
